@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import AnimalsContainer from './container';
 import { store } from './store';
-import 'foo.css';
 
 const targetEl = document.getElementById('root');
 
