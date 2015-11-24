@@ -1,0 +1,8 @@
+.installed.cfg
+*.egg-info
+parts
+bin
+eggs
+develop-eggs
+node_modules
+
