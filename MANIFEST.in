@@ -1,0 +1,12 @@
+recursive-include morepath_reactredux *
+include *.txt
+include *.rst
+include LICENSE
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude __pycache__/*
+include *.js
+include *.json
+include .*rc
+recursive-include js *
+recursive-include static *
