@@ -5,7 +5,6 @@ from webob.static import DirectoryApp, FileApp
 from .app import App
 
 
-
 def main():
     morepath.autosetup()
 
