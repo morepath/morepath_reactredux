@@ -8,17 +8,23 @@ Morepath backend
 
 You can run the code using a clean Python environment (using virtualenv)::
 
-  $ python bootstrap-buildout.py
+  $ virtualenv env
+  $ source env/bin/activate
 
-after this you can install dependencies using::
+After this you can install dependencies using::
 
-  $ bin/buildout
+  $ env/bin/pip install -e .
 
 Once that is done you can start the server::
 
-  $ bin/start
+  $ env/bin/run-app
 
 You can go to http://localhost:5000 to see the UI
+
+For installing the test suite and running the tests use::
+
+  $ env/bin/pip install -e '.[test]'
+  $ env/bin/py.test
 
 JS bundle
 ---------

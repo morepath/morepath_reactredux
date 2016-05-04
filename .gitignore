@@ -1,8 +1,23 @@
-.installed.cfg
-*.egg-info
-parts
-bin
-eggs
-develop-eggs
-node_modules
+# Byte-compiled / optimized
+__pycache__/
+*.py[co]
 
+# Distribution / packaging
+env/
+build/
+dist/
+*.egg-info/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Sphinx documentation
+docs/_build/
+
+# Javascript
+node_modules

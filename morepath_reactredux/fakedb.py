@@ -41,6 +41,7 @@ class Animal(object):
 
 zoo = Zoo()
 
+
 def reset_zoo():
     zoo.clear()
     zoo.add(Animal('Bob', 'snake'))
@@ -49,4 +50,3 @@ def reset_zoo():
     zoo.add(Animal('Kate', 'tiger'))
 
 reset_zoo()
-
