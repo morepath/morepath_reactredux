@@ -20,6 +20,7 @@ setup(
     author="Martijn Faassen",
     author_email="faassen@startifact.com",
     license="BSD",
+    url="https://github.com/morepath/morepath_reactredux",
     packages=find_packages(),
     include_package_data=True,
     zip_safe=False,
