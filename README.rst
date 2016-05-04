@@ -21,6 +21,11 @@ Once that is done you can start the server::
 
 You can go to http://localhost:5000 to see the UI
 
+For installing the test suite and running the tests use::
+
+  $ env/bin/pip install -e '.[test]'
+  $ env/bin/py.test
+
 JS bundle
 ---------
 
