@@ -25,11 +25,15 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        'setuptools',
-        'morepath',
-        'webtest',
-        'pytest'
+        'morepath>=0.14',
     ],
+    extras_require=dict(
+        test=[
+            'pytest',
+            'pytest-cov',
+            'webtest',
+        ],
+    ),
     entry_points={
         'console_scripts': [
             'run-app = morepath_reactredux.run:run',
