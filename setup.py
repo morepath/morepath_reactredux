@@ -17,19 +17,23 @@ setup(
     version=version,
     description=description,
     long_description=long_description,
-    author="Martijn Faassen",
-    author_email="faassen@startifact.com",
+    author='Morepath developers',
+    author_email='morepath@googlegroups.com',
     license="BSD",
     url="https://github.com/morepath/morepath_reactredux",
     packages=find_packages(),
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        'setuptools',
-        'morepath',
-        'webtest',
-        'pytest'
+        'morepath>=0.14',
     ],
+    extras_require=dict(
+        test=[
+            'pytest',
+            'pytest-cov',
+            'webtest',
+        ],
+    ),
     entry_points={
         'console_scripts': [
             'run-app = morepath_reactredux.run:run',
@@ -38,6 +42,7 @@ setup(
     classifiers=[
         'Intended Audience :: Developers',
         'Environment :: Web Environment',
+        'License :: OSI Approved :: BSD License',
         'Topic :: Internet :: WWW/HTTP :: WSGI',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3.4',

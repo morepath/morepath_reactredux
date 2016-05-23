@@ -1,6 +1,7 @@
 recursive-include morepath_reactredux *
 include *.txt
 include *.rst
+include *.ini
 include LICENSE
 global-exclude *.pyc
 global-exclude *.pyo
