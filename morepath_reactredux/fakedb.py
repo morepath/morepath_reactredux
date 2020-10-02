@@ -39,6 +39,7 @@ class Animal(object):
         self.name = name
         self.species = species
 
+
 zoo = Zoo()
 
 
@@ -48,5 +49,6 @@ def reset_zoo():
     zoo.add(Animal('Fred', 'snake'))
     zoo.add(Animal('Anna', 'elephant'))
     zoo.add(Animal('Kate', 'tiger'))
+
 
 reset_zoo()
