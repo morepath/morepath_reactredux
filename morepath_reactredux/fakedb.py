@@ -1,4 +1,4 @@
-class Zoo(object):
+class Zoo:
     def __init__(self):
         self.clear()
 
@@ -34,7 +34,7 @@ class Zoo(object):
         return self._animals.values()
 
 
-class Animal(object):
+class Animal:
     def __init__(self, name, species):
         self.name = name
         self.species = species
@@ -45,10 +45,10 @@ zoo = Zoo()
 
 def reset_zoo():
     zoo.clear()
-    zoo.add(Animal('Bob', 'snake'))
-    zoo.add(Animal('Fred', 'snake'))
-    zoo.add(Animal('Anna', 'elephant'))
-    zoo.add(Animal('Kate', 'tiger'))
+    zoo.add(Animal("Bob", "snake"))
+    zoo.add(Animal("Fred", "snake"))
+    zoo.add(Animal("Anna", "elephant"))
+    zoo.add(Animal("Kate", "tiger"))
 
 
 reset_zoo()
