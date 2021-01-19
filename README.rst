@@ -1,3 +1,17 @@
+.. image:: https://github.com/morepath/morepath_reactredux/workflows/CI/badge.svg?branch=master
+   :target: https://github.com/morepath/morepath_reactredux/actions?workflow=CI
+   :alt: CI Status
+
+.. image:: https://coveralls.io/repos/github/morepath/morepath_reactredux/badge.svg?branch=master
+    :target: https://coveralls.io/github/morepath/morepath_reactredux?branch=master
+
+.. image:: https://img.shields.io/pypi/v/morepath_reactredux.svg
+  :target: https://pypi.org/project/morepath_reactredux/
+
+.. image:: https://img.shields.io/pypi/pyversions/morepath_reactredux.svg
+  :target: https://pypi.org/project/morepath_reactredux/
+
+
 Morepath backend for React + Redux
 ==================================
 
