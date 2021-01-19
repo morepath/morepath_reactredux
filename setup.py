@@ -1,4 +1,3 @@
-import io
 from setuptools import setup, find_packages
 
 name = "morepath_reactredux"
